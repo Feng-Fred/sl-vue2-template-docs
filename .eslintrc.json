@@ -1,0 +1,97 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:vue/vue3-essential",
+    "standard-with-typescript",
+    "@vue/eslint-config-typescript",
+    "@vue/eslint-config-prettier"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.mts", "*.cts", "*.tsx"]
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": ["tsconfig.json", "vite.config.ts"]
+  },
+  "plugins": ["vue"],
+  "rules": {
+    "prettier/prettier": 2,
+    "camelcase": [
+      1,
+      {
+        "properties": "always"
+      }
+    ],
+    "quotes": [2, "double"],
+    "@typescript-eslint/quotes": [2, "double"],
+    "semi": [2, "always"],
+    "@typescript-eslint/semi": [2, "always"],
+    "no-duplicate-imports": 2,
+    "no-useless-computed-key": 2,
+    "no-var": 2,
+    "no-console": 1,
+    "@typescript-eslint/consistent-type-imports": 2,
+    "arrow-spacing": 2,
+    "arrow-body-style": [2, "always"],
+    "arrow-parens": [2, "always"],
+    "generator-star-spacing": [2, { "before": true, "after": false }],
+    "sort-imports": [
+      0,
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+        "allowSeparatedGroups": false
+      }
+    ],
+    "no-return-await": 2,
+    "no-self-compare": 2,
+    "no-useless-call": 2,
+    "no-useless-concat": 2,
+    "no-else-return": 2,
+    "no-unused-vars": [
+      2,
+      {
+        "args": "none"
+      }
+    ],
+    "@typescript-eslint/restrict-template-expressions": 0,
+    "@typescript-eslint/member-delimiter-style": [
+      2,
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
+    "@typescript-eslint/no-floating-promises": 0,
+    "@typescript-eslint/no-misused-promises": 0,
+    "@typescript-eslint/space-before-function-paren": 0,
+    "@typescript-eslint/strict-boolean-expressions": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/consistent-type-assertions": 0,
+    "@typescript-eslint/prefer-nullish-coalescing": 0,
+    "vue/multi-word-component-names": 0,
+    /**
+     *  这个lint是不允许废弃的属性，
+     *  比如 <template slot="name">, 现在有使用，目前先兼容旧的写法
+     *  比如 @keyup.enter.native
+     *  后期需要删除
+     */
+    "vue/no-deprecated-slot-attribute": 0,
+    "vue/no-deprecated-v-on-native-modifier": 0,
+    "vue/no-reserved-component-names": 0
+  }
+}
