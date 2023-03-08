@@ -1,4 +1,4 @@
-### 组件引入
+## 引入
 
 ```sh
 npm i sl-vue-template
@@ -6,11 +6,17 @@ npm i sl-vue-template
 
 ---
 
-### 你可能会额外遇到 sass 的错误，所以你需要引入 sass
+::: warning
+
+#### :zap: 你可能会额外遇到 sass 的错误，所以你需要引入 sass
 
 ```sh
 npm i sass
 ```
+
+:::
+
+::: danger
 
 .vue 使用可能会遇到<Button.Primary>不存在的问题，这是因为 vue 文件不能这样使用组件
 请按下面注入组件
@@ -27,3 +33,5 @@ export default {
   }
 }
 ```
+
+:::
