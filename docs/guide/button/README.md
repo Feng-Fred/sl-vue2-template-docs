@@ -6,7 +6,7 @@
 
 <Button />
 
-::: details tsx 代码
+::: details 案例
 <<< @/src/pages/Button/Button.tsx
 :::
 

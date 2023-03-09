@@ -1,4 +1,5 @@
 import { defineComponent } from "vue";
+import { Button } from "sl-vue2-template";
 
 export default defineComponent({
   data() {
@@ -13,6 +14,6 @@ export default defineComponent({
     },
   },
   render() {
-    return <div>Button Page</div>;
+    return <Button>Button Page</Button>;
   },
 });
