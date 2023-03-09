@@ -11,7 +11,7 @@
   ],
   "overrides": [
     {
-      "files": ["*.ts", "*.mts", "*.cts", "*.tsx"]
+      "files": ["*.ts", "*.mts", "*.cts", "*.tsx", "md"]
     }
   ],
   "parserOptions": {

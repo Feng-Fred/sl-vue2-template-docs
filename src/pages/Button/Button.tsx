@@ -1,6 +1,4 @@
 import { defineComponent } from "vue";
-import { Button } from "sl-vue2-template";
-import clsx from "clsx";
 
 export default defineComponent({
   data() {
@@ -15,15 +13,6 @@ export default defineComponent({
     },
   },
   render() {
-    return (
-      <div
-        class={clsx({
-          button: true,
-          button2: true,
-        })}
-      >
-        <Button handlerClick={this.onClose}>Button</Button>
-      </div>
-    );
+    return <div>Button Page</div>;
   },
 });

@@ -1,8 +1,12 @@
+<script setup>
+ import Button from '../../../src/pages/Button'
+</script>
+
 ## Button 按钮
 
-<ButtonComponent />
+<Button />
 
-::: details 查看代码使用
+::: details tsx 代码
 <<< @/src/pages/Button/Button.tsx
 :::
 
