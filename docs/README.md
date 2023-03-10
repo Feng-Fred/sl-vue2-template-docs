@@ -7,9 +7,9 @@ actionLink: /guide/
 features:
   - title: Sass
     details: Scss预处理
-  - title: vite2
-    details: vite作为打包工具
   - title: typescript -> tsx
     details: 代码更加安全与高效
+  - title: 暂无效果图
+    details: 因为暂时没有vuePress配置tsx版vue2组件的方案，你可以预览http://localhost:3000/一起使用，后续会增加
 footer: MIT Licensed | Copyright © 2023-present Evan Fred
 ---

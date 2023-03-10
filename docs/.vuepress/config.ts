@@ -7,7 +7,7 @@ const config = {
   title: "时励UI组件",
   description: "基于vue2.7.14的UI组件",
   themeConfig: {
-    lastUpdated: "上次更新:",
+    lastUpdated: "上次更新",
     nav: navList,
     sidebar: sidebarList,
   },

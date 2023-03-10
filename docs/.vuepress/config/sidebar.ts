@@ -8,6 +8,12 @@ const sidebarList = [
     title: "Button 按钮",
     path: "/guide/button/",
     collapsable: false,
+    sidebarDepth: 3,
+  },
+  {
+    title: "Dialog 罩层",
+    path: "/guide/dialog/",
+    collapsable: false,
   },
 ];
 
