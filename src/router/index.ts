@@ -3,6 +3,7 @@ import Button from "../pages/Button";
 import Dialog from "../pages/Dialog";
 import Icon from "../pages/Icon";
 import Model from "../pages/Model";
+import Switch from "../pages/Switch";
 
 const router = new VueRouter({
   mode: "history",
@@ -31,6 +32,11 @@ const router = new VueRouter({
       path: "/icon",
       name: "Icon 图标",
       component: Icon,
+    },
+    {
+      path: "/switch",
+      name: "Switch 开关",
+      component: Switch,
     },
   ],
 });

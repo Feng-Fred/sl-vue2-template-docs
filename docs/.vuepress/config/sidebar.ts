@@ -15,6 +15,16 @@ const sidebarList = [
     path: "/guide/dialog/",
     collapsable: false,
   },
+  {
+    title: "Model 弹出层",
+    path: "/guide/model/",
+    collapsable: false,
+  },
+  {
+    title: "Switch 开关",
+    path: "/guide/switch/",
+    collapsable: false,
+  },
 ];
 
 export default sidebarList;
