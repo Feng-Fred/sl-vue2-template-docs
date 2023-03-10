@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import { Button, Model } from "../../components";
+import { Button, Model } from "sl-vue2-template";
 import clsx from "clsx";
 
 export default defineComponent({
