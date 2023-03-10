@@ -11,6 +11,16 @@ const sidebarList = [
     sidebarDepth: 3,
   },
   {
+    title: "Icon 图标",
+    path: "/guide/icon/",
+    collapsable: false,
+  },
+  {
+    title: "Switch 开关",
+    path: "/guide/switch/",
+    collapsable: false,
+  },
+  {
     title: "Dialog 罩层",
     path: "/guide/dialog/",
     collapsable: false,
@@ -18,11 +28,6 @@ const sidebarList = [
   {
     title: "Model 弹出层",
     path: "/guide/model/",
-    collapsable: false,
-  },
-  {
-    title: "Switch 开关",
-    path: "/guide/switch/",
     collapsable: false,
   },
 ];
