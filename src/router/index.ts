@@ -1,5 +1,6 @@
 import VueRouter from "vue-router";
 import Button from "../pages/Button";
+import Color from "../pages/Color";
 import Dialog from "../pages/Dialog";
 import Icon from "../pages/Icon";
 import Model from "../pages/Model";
@@ -11,7 +12,12 @@ const router = new VueRouter({
     {
       path: "/",
       name: "Home",
-      redirect: "/icon",
+      redirect: "/color",
+    },
+    {
+      path: "/color",
+      name: "基础颜色",
+      component: Color,
     },
     {
       path: "/button",

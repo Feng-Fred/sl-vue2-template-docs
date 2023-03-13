@@ -1,0 +1,69 @@
+$sl-primary-color: #c00000;
+$sl-second-color: #cd2500;
+$sl-primary-color-outline: rgba(24, 144, 255, 0.2);
+$sl-success-color: #52c41a;
+$sl-error-color: #ff4d4f;
+$sl-warning-color: #faad14;
+$sl-info-color: #1890ff;
+$sl-link-color: #c00000;
+
+$sl-white: #ffffff;
+$sl-red: #ff1111;
+$sl-light-red: #f4dfdf;
+$sl-black: #000000;
+$sl-light-black: #444444;
+$sl-aux-black: #666666;
+$sl-aux-text: #898989;
+$sl-text: #000000d9;
+$sl-grey: #b2b2b2;
+$sl-light-grey: #cccccc;
+$sl-blue: #3592f4;
+$sl-error: #cc0000;
+$sl-success: #27d181;
+$sl-waring: #ee7000;
+$sl-font-family: "Microsoft YaHei", "Courier New", Courier, monospace;
+$bezier-wave: cubic-bezier(0.66, 0, 0, 1);
+$bezier-ea: cubic-bezier(0.23, 1, 0.32, 1);
+
+$color-list: (
+  primary-color: $sl-primary-color,
+  second-color: $sl-second-color,
+  success-color: $sl-success-color,
+  error-color: $sl-error-color,
+  warning-color: $sl-warning-color,
+  link-color: $sl-link-color,
+  info-color: $sl-info-color,
+  white: $sl-white,
+  red: $sl-red,
+  light-red: $sl-light-red,
+  black: $sl-black,
+  light-black: $sl-light-black,
+  aux-black: $sl-aux-black,
+  text: $sl-text,
+  aux-text: $sl-aux-text,
+  grey: $sl-grey,
+  light-grey: $sl-light-grey,
+  blue: $sl-blue,
+  success: $sl-success,
+  waring: $sl-waring,
+  error: $sl-error,
+);
+
+.color-page {
+  background-color: #f2f2f2;
+  padding: 24px 16px;
+  .color-item {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    @each $name, $color in $color-list {
+      #{".color_" + $name} {
+        width: 100px;
+        height: 24px;
+        background-color: $color;
+      }
+    }
+  }
+}
