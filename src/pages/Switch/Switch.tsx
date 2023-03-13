@@ -15,13 +15,7 @@ export default defineComponent({
   render() {
     return (
       <div>
-        <Switch
-          checked={this.checked}
-          handlerChange={(value) => {
-            console.log("---->value", value);
-            this.onSwitch();
-          }}
-        >
+        <Switch checked={this.checked} handlerChange={this.onSwitch}>
           Switch
         </Switch>
         <Switch
