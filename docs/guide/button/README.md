@@ -1,10 +1,14 @@
-# Button 按钮
+# Button
+
+按钮
 
 ::: details 案例
 <<< @/src/pages/Button/Button.tsx
 :::
 
 ## Button.Primary 主按钮
+
+主按钮
 
 #### 属性
 
@@ -26,7 +30,9 @@
 | :----------- | :--------- | :--------- | :--: | :--: |
 | handlerClick | 点击的回调 | () => void |  否  |  --  |
 
-## Button.Text 文本按钮 Button.Link 链接按钮
+## Button.Text/Button.Link 文本按钮/链接按钮
+
+文本按钮/链接按钮
 
 #### 属性
 
@@ -44,6 +50,8 @@
 | handlerClick | 点击的回调 | () => void |  否  |  --  |
 
 ## Button.Group 按钮组
+
+按钮组
 
 #### 属性
 

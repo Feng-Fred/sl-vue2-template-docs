@@ -9,6 +9,7 @@ import Message from "../pages/Message";
 import Model from "../pages/Model";
 import Select from "../pages/Select";
 import Switch from "../pages/Switch";
+import Typography from "../pages/Typography";
 
 const router = new VueRouter({
   mode: "history",
@@ -16,7 +17,7 @@ const router = new VueRouter({
     {
       path: "/",
       name: "Home",
-      redirect: "/grid",
+      redirect: "/typography",
     },
     {
       path: "/color",
@@ -32,6 +33,11 @@ const router = new VueRouter({
       path: "/button",
       name: "Button 按钮",
       component: Button,
+    },
+    {
+      path: "/typography",
+      name: "Typography 排版",
+      component: Typography,
     },
     {
       path: "/dialog",

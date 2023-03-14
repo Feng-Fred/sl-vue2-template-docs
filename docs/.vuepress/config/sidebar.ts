@@ -11,6 +11,12 @@ const sidebarList = [
     sidebarDepth: 3,
   },
   {
+    title: "Typography 排版",
+    path: "/guide/typography/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
+  {
     title: "Grid 栅格",
     path: "/guide/grid/",
     collapsable: false,

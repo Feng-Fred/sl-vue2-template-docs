@@ -1,4 +1,6 @@
-# Dialog 罩层
+# Dialog
+
+罩层
 
 ::: details 案例
 <<< @/src/pages/Dialog/Dialog.tsx

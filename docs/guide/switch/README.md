@@ -1,4 +1,6 @@
-# Switch 开关
+# Switch
+
+开关
 
 ::: details 案例
 <<< @/src/pages/Switch/Switch.tsx

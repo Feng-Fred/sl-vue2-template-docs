@@ -1,4 +1,6 @@
-# Message 全局提示
+# Message
+
+全局提示
 
 ::: details 案例
 <<< @/src/pages/Message/Message.tsx

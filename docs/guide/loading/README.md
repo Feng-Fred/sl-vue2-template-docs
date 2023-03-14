@@ -1,4 +1,6 @@
-# Loading 加载中
+# Loading
+
+加载中，全局加载状态
 
 ::: details 案例
 <<< @/src/pages/Loading/Loading.tsx
