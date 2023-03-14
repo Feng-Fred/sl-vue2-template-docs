@@ -36,7 +36,12 @@ const Left = defineComponent({
             [styles.content]: true,
           })}
         >
-          <div class={styles.top}>
+          <div
+            class={styles.top}
+            onClick={() => {
+              router.push("/");
+            }}
+          >
             <H5>时励组件库</H5>
           </div>
           {routes.map((item) => {

@@ -8,9 +8,9 @@
 
 | 成员      |      说明       |  类型   | 必须 | 默认值 | 版本 |
 | --------- | :-------------: | :-----: | ---- | ------ | ---- |
-| show      |      可见       | boolean | 是   | false  | --   |
-| width     |  弹出层的宽度   | number  | 否   | --     | --   |
-| className | 自定义 class 名 | string  | 否   | --     | --   |
+| show      |      可见       | Boolean | 是   | false  | --   |
+| width     |  弹出层的宽度   | Number  | 否   | --     | --   |
+| className | 自定义 class 名 | String  | 否   | --     | --   |
 
 #### 事件
 

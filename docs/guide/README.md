@@ -34,7 +34,9 @@ export default {
 
 :::
 
-::: tip 支持颜色
+#### 颜色
+
+::: tip 颜色名与对应的值
 
 ```css
 .color {
@@ -64,7 +66,9 @@ export default {
 
 :::
 
-::: tip Icon 图标
+#### Icon 图标
+
+::: tip Icon 名
 
 ```js
 "Prompt" |

@@ -2,8 +2,12 @@ import VueRouter from "vue-router";
 import Button from "../pages/Button";
 import Color from "../pages/Color";
 import Dialog from "../pages/Dialog";
+import Grid from "../pages/Grid";
 import Icon from "../pages/Icon";
+import Loading from "../pages/Loading";
+import Message from "../pages/Message";
 import Model from "../pages/Model";
+import Select from "../pages/Select";
 import Switch from "../pages/Switch";
 
 const router = new VueRouter({
@@ -12,12 +16,17 @@ const router = new VueRouter({
     {
       path: "/",
       name: "Home",
-      redirect: "/color",
+      redirect: "/grid",
     },
     {
       path: "/color",
       name: "基础颜色",
       component: Color,
+    },
+    {
+      path: "/grid",
+      name: "Grid 栅格",
+      component: Grid,
     },
     {
       path: "/button",
@@ -43,6 +52,21 @@ const router = new VueRouter({
       path: "/switch",
       name: "Switch 开关",
       component: Switch,
+    },
+    {
+      path: "/select",
+      name: "Select 下拉框",
+      component: Select,
+    },
+    {
+      path: "/loading",
+      name: "Loading 加载中",
+      component: Loading,
+    },
+    {
+      path: "/message",
+      name: "Message 全局提示",
+      component: Message,
     },
   ],
 });

@@ -17,7 +17,7 @@ export default defineComponent({
       <div>
         <Button handlerClick={this.onClose}>Button</Button>
         <Button.Primary>Button Primary</Button.Primary>
-        <Button.Primary>Button Primary</Button.Primary>
+        <Button.Primary color="blue">Button Primary</Button.Primary>
         <Button.Primary loading>Button Primary</Button.Primary>
         <Button.Primary suffixIcon="Add">Button Primary</Button.Primary>
         <Button.Text color="blue">Button Primary</Button.Text>
