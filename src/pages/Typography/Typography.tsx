@@ -11,8 +11,6 @@ export default defineComponent({
   },
   methods: {
     onShowModel() {
-      console.log(1);
-
       this.show = !this.show;
     },
   },
