@@ -51,6 +51,7 @@ const sidebarList = [
     title: "Select 下拉框",
     path: "/guide/select/",
     collapsable: false,
+    sidebarDepth: 3,
   },
   {
     title: "Message 全局提示",
