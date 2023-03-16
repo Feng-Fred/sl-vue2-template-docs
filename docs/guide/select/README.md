@@ -24,7 +24,7 @@
 
 | 事件名称      | 说明             | 回调参数                         | 必须 | 版本 |
 | :------------ | :--------------- | :------------------------------- | :--: | :--: |
-| handlerChange | value 变化的回调 | (value: String\|Number ) => void |  是  |  --  |
+| handlerChange | value 变化的回调 | (value: String\|Number ) => void |  否  |  --  |
 
 ### Select.Multiple
 
@@ -43,7 +43,7 @@
 
 | 事件名称      | 说明             | 回调参数                              | 必须 | 版本 |
 | :------------ | :--------------- | :------------------------------------ | :--: | :--: |
-| handlerChange | value 变化的回调 | (value: String[\]\|Number[] ) => void |  是  |  --  |
+| handlerChange | value 变化的回调 | (value: String[\]\|Number[] ) => void |  否  |  --  |
 
 #### Option 属性
 
