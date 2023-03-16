@@ -133,6 +133,7 @@ export default defineComponent({
           handlerChange={(value) => {
             this.valueA = value;
           }}
+          hiddenIcon
         />
         <P>Search</P>
         <Select.Search
@@ -142,6 +143,22 @@ export default defineComponent({
             this.valueB = value;
           }}
         />
+        <Select.Search
+          value={this.valueB}
+          options={this.optionsB}
+          handlerChange={(value) => {
+            this.valueB = value;
+          }}
+          disabled
+        />
+        <Select.Search
+          value={this.valueB}
+          options={this.optionsB}
+          handlerChange={(value) => {
+            this.valueB = value;
+          }}
+          hiddenIcon
+        />
         <P>Multiple</P>
         <Select.Multiple
           value={this.valueC}
@@ -149,6 +166,14 @@ export default defineComponent({
           handlerChange={(value) => {
             this.valueC = value;
           }}
+        />
+        <Select.Multiple
+          value={this.valueC}
+          options={this.OptionsC}
+          handlerChange={(value) => {
+            this.valueC = value;
+          }}
+          disabled
         />
       </div>
     );
