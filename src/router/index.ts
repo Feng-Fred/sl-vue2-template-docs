@@ -2,6 +2,7 @@ import VueRouter from "vue-router";
 import Button from "../pages/Button";
 import Color from "../pages/Color";
 import Dialog from "../pages/Dialog";
+import Drawer from "../pages/Drawer";
 import Grid from "../pages/Grid";
 import Icon from "../pages/Icon";
 import Loading from "../pages/Loading";
@@ -73,6 +74,11 @@ const router = new VueRouter({
       path: "/message",
       name: "Message 全局提示",
       component: Message,
+    },
+    {
+      path: "/drawer",
+      name: "Drawer 抽屉",
+      component: Drawer,
     },
   ],
 });

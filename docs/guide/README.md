@@ -11,12 +11,26 @@ npm i sl-vue-template
 #### :zap: 你可能会额外遇到 sass 的错误，所以你需要引入 sass
 
 ```sh
-npm i sass
+npm install sass
 ```
 
 :::
 
-::: danger 危险
+::: warning 兼容 ie11 须知
+
+需要先引入 babel-polyfill
+
+```sh
+npm install --save-dev babel-polyfill
+```
+
+```js
+import "babel-polyfill";
+```
+
+:::
+
+::: danger vue 文件使用须知
 
 .vue 使用可能会遇到<Button.Primary>不存在的问题，这是因为 vue 文件不能这样使用组件
 请按下面注入组件

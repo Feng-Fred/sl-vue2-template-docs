@@ -12,6 +12,7 @@
 | --------- | :-------------: | :-----: | ---- | ------ | ---- |
 | show      |      可见       | Boolean | 是   | false  | --   |
 | width     |  弹出层的宽度   | Number  | 否   | --     | --   |
+| animation |    动画效果     | Boolean | 否   | true   | --   |
 | className | 自定义 class 名 | String  | 否   | --     | --   |
 
 #### 事件

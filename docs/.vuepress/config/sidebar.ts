@@ -43,6 +43,11 @@ const sidebarList = [
     collapsable: false,
   },
   {
+    title: "Drawer 抽屉",
+    path: "/guide/drawer/",
+    collapsable: false,
+  },
+  {
     title: "Loading 加载中",
     path: "/guide/loading/",
     collapsable: false,

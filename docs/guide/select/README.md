@@ -6,7 +6,7 @@
 <<< @/src/pages/Select/Select.tsx
 :::
 
-### Select/Select.Search
+## Select/Select.Search
 
 普通下拉框/带搜索功能的下拉框
 
@@ -27,7 +27,7 @@
 | :------------ | :--------------- | :------------------------------- | :--: | :--: |
 | handlerChange | value 变化的回调 | (value: String\|Number ) => void |  否  |  --  |
 
-### Select.Multiple
+## Select.Multiple
 
 多选模式的下拉框
 
