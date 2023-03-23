@@ -48,9 +48,9 @@
 
 #### Option 属性
 
-| 成员     |                    说明                     |      类型      | 必须 | 默认值 | 版本 |
-| -------- | :-----------------------------------------: | :------------: | ---- | ------ | ---- |
-| value    |                   选项值                    | String\|Number | 是   | --     | --   |
-| label    |                  选项文本                   |     String     | 是   | --     | --   |
-| disabled |                    禁用                     |    Boolean     | 否   | false  | --   |
-| default  | 默认值，(当使用 Select.Multiple 的时候有效) |    Boolean     | 否   | false  | --   |
+| 成员     |                     说明                      |      类型      | 必须 | 默认值 | 版本 |
+| -------- | :-------------------------------------------: | :------------: | ---- | ------ | ---- |
+| value    |                    选项值                     | String\|Number | 是   | --     | --   |
+| label    |                   选项文本                    |     String     | 是   | --     | --   |
+| disabled |                     禁用                      |    Boolean     | 否   | false  | --   |
+| default  | 默认选中，(当使用 Select.Multiple 的时候有效) |    Boolean     | 否   | false  | --   |

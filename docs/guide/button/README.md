@@ -15,7 +15,7 @@
 | 成员       |          说明           |               类型                | 必须 | 默认值          | 版本 |
 | ---------- | :---------------------: | :-------------------------------: | ---- | --------------- | ---- |
 | size       |        按钮尺寸         |   'large' \ 'small' \ 'middle'    | 否   | 'middle'        | --   |
-| color      |    背景颜色,边框颜色    |    [颜色名](../README.md#颜色)    | 否   | 'primary-color' | --   |
+| color      |      背景/边框颜色      |    [颜色名](../README.md#颜色)    | 否   | 'primary-color' | --   |
 | disabled   |          禁用           |              Boolean              | 否   | false           | --   |
 | full       | 宽度 100%，取决于父容器 |              Boolean              | 否   | false           | --   |
 | plain      |          空心           |              Boolean              | 否   | false           | --   |

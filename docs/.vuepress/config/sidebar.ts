@@ -63,6 +63,18 @@ const sidebarList = [
     path: "/guide/message/",
     collapsable: false,
   },
+  {
+    title: "CheckBox 复选框",
+    path: "/guide/checkBox/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
+  {
+    title: "Radio 单选框",
+    path: "/guide/radio/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
 ];
 
 export default sidebarList;

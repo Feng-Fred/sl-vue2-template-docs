@@ -1,5 +1,6 @@
 import VueRouter from "vue-router";
 import Button from "../pages/Button";
+import CheckBox from "../pages/CheckBox";
 import Color from "../pages/Color";
 import Dialog from "../pages/Dialog";
 import Drawer from "../pages/Drawer";
@@ -8,6 +9,7 @@ import Icon from "../pages/Icon";
 import Loading from "../pages/Loading";
 import Message from "../pages/Message";
 import Model from "../pages/Model";
+import Radio from "../pages/Radio";
 import Select from "../pages/Select";
 import Switch from "../pages/Switch";
 import Typography from "../pages/Typography";
@@ -79,6 +81,16 @@ const router = new VueRouter({
       path: "/drawer",
       name: "Drawer 抽屉",
       component: Drawer,
+    },
+    {
+      path: "/checkBox",
+      name: "CheckBox 复选框",
+      component: CheckBox,
+    },
+    {
+      path: "/radio",
+      name: "Radio 单选框",
+      component: Radio,
     },
   ],
 });
