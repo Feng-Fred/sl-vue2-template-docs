@@ -75,6 +75,12 @@ const sidebarList = [
     collapsable: false,
     sidebarDepth: 3,
   },
+  {
+    title: "Collapse 折叠面板",
+    path: "/guide/collapse/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
 ];
 
 export default sidebarList;

@@ -1,6 +1,7 @@
 import VueRouter from "vue-router";
 import Button from "../pages/Button";
 import CheckBox from "../pages/CheckBox";
+import Collapse from "../pages/Collapse";
 import Color from "../pages/Color";
 import Dialog from "../pages/Dialog";
 import Drawer from "../pages/Drawer";
@@ -91,6 +92,11 @@ const router = new VueRouter({
       path: "/radio",
       name: "Radio 单选框",
       component: Radio,
+    },
+    {
+      path: "/collapse",
+      name: "Collapse 折叠面板",
+      component: Collapse,
     },
   ],
 });
