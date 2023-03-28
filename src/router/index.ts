@@ -13,6 +13,8 @@ import Model from "../pages/Model";
 import Radio from "../pages/Radio";
 import Select from "../pages/Select";
 import Switch from "../pages/Switch";
+import Tabs from "../pages/Tabs";
+import Tag from "../pages/Tag";
 import Typography from "../pages/Typography";
 
 const router = new VueRouter({
@@ -97,6 +99,16 @@ const router = new VueRouter({
       path: "/collapse",
       name: "Collapse 折叠面板",
       component: Collapse,
+    },
+    {
+      path: "/tag",
+      name: "Tag 标签",
+      component: Tag,
+    },
+    {
+      path: "/tabs",
+      name: "Tabs 标签页",
+      component: Tabs,
     },
   ],
 });

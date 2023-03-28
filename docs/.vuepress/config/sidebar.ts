@@ -81,6 +81,17 @@ const sidebarList = [
     collapsable: false,
     sidebarDepth: 3,
   },
+  {
+    title: "Tag 标签",
+    path: "/guide/tag/",
+    collapsable: false,
+  },
+  {
+    title: "Tabs 标签页",
+    path: "/guide/tabs/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
 ];
 
 export default sidebarList;
