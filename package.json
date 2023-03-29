@@ -7,7 +7,7 @@
     "preview": "npm run build && vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "docs:start": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "rimraf ./docs/.vuepress/dist && vuepress build docs"
   },
   "dependencies": {
     "async-validator": "^4.2.5",
