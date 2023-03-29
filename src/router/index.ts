@@ -23,7 +23,7 @@ const router = new VueRouter({
     {
       path: "/",
       name: "Home",
-      redirect: "/typography",
+      redirect: "/Button",
     },
     {
       path: "/color",
