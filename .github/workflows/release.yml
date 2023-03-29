@@ -42,4 +42,4 @@ jobs:
           target_branch: release
           build_dir: docs/.vuepress/dist
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
