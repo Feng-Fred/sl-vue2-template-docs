@@ -1,7 +1,7 @@
 # 引入
 
 ```sh
-npm i sl-vue-template
+npm i sl-vue2-template
 ```
 
 ---
