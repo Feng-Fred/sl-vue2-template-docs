@@ -45,7 +45,7 @@ jobs:
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
+      - name: sl-vue2-template
         uses: crazy-max/ghaction-github-pages@v2
         with:
           # 部署到 release 分支
