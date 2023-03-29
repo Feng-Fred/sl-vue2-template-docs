@@ -16,7 +16,8 @@
     "sl-vue2-template": "^0.0.0-beta44",
     "vue": "^2.7.14",
     "vue-router": "^3.6.5",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.14",
+    "yarn": "^1.22.19"
   },
   "license": "MIT",
   "devDependencies": {
