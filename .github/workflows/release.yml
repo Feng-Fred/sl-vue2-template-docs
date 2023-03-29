@@ -3,13 +3,13 @@ name: release
 on:
   push:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout  ️
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -39,6 +39,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: gh-pages
+          target_branch: release
           build_dir: docs/.vuepress/dist
-          GITHUB_TOKEN: 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
+        env:
+          ACCESS_TOKEN: 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
