@@ -48,8 +48,8 @@ jobs:
       - name: sl-vue2-template
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          # 部署到 release 分支
-          target_branch: release
+          # 部署到 gh-pages 分支
+         target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
         env:
