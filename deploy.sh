@@ -15,6 +15,6 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'release'
-git push -f git@github.com:Fred-Feng/sl-vue2-template-docs.git master:release
+git push -f git@github.com:Feng-Fred/sl-vue2-template-docs.git master:release
 
 cd -
