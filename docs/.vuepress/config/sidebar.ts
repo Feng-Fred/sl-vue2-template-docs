@@ -92,6 +92,12 @@ const sidebarList = [
     collapsable: false,
     sidebarDepth: 3,
   },
+  {
+    title: "Menu 导航菜单",
+    path: "/guide/menu/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
 ];
 
 export default sidebarList;

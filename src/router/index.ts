@@ -8,6 +8,7 @@ import Drawer from "../pages/Drawer";
 import Grid from "../pages/Grid";
 import Icon from "../pages/Icon";
 import Loading from "../pages/Loading";
+import Menu from "../pages/Menu";
 import Message from "../pages/Message";
 import Model from "../pages/Model";
 import Radio from "../pages/Radio";
@@ -109,6 +110,11 @@ const router = new VueRouter({
       path: "/tabs",
       name: "Tabs 标签页",
       component: Tabs,
+    },
+    {
+      path: "/menu",
+      name: "Menu 导航菜单",
+      component: Menu,
     },
   ],
 });

@@ -13,7 +13,7 @@
     "async-validator": "^4.2.5",
     "clipboard": "^2.0.11",
     "clsx": "^1.2.1",
-    "sl-vue2-template": "^0.0.0-beta44",
+    "sl-vue2-template": "^0.0.0-beta49",
     "vue": "^2.7.14",
     "vue-router": "^3.6.5",
     "vue-template-compiler": "^2.7.14",
