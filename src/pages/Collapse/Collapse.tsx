@@ -261,7 +261,7 @@ export default defineComponent({
           </Collapse>
         </Collapse.Group>{" "}
         <H3>Collapse 关闭动画</H3>
-        <Collapse>
+        <Collapse animation={false}>
           <Collapse.Header>
             <H3>标题</H3>
             <H4>标题</H4>

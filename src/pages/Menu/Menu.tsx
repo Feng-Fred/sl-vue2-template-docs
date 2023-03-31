@@ -4,17 +4,12 @@ import { Typography, Icon, Menu } from "sl-vue2-template";
 const { P } = Typography;
 
 export default defineComponent({
-  methods: {
-    onClick() {
-      console.log("--->1");
-    },
-  },
   render() {
     return (
       <div>
         <P>Menu 默认1</P>
         <Menu style={{ width: "256px" }}>
-          <Menu.Item mark="1" handlerClick={this.onClick}>
+          <Menu.Item mark="1">
             <Icon name="Add Bold" size="20" />
             Navigation 1
           </Menu.Item>
@@ -26,7 +21,7 @@ export default defineComponent({
         </Menu>
         <P>Menu 默认 Number</P>
         <Menu active={2} style={{ width: "256px" }}>
-          <Menu.Item mark={1} handlerClick={this.onClick}>
+          <Menu.Item mark={1}>
             <Icon name="Add Bold" size="20" />
             Navigation 1
           </Menu.Item>
@@ -167,7 +162,7 @@ export default defineComponent({
         </Menu>
         <P>Menu 关闭动画效果</P>
         <Menu animation={false} style={{ width: "256px" }}>
-          <Menu.Item mark="1" handlerClick={this.onClick}>
+          <Menu.Item mark="1">
             <Icon name="Add Bold" size="20" />
             Navigation 1
           </Menu.Item>
