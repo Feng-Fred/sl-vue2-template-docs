@@ -118,6 +118,7 @@ export default defineComponent({
           handlerChange={(value) => {
             this.onChange(value);
           }}
+          animation={false}
         />
         <Select
           value={this.value}

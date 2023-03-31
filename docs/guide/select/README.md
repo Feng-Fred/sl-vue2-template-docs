@@ -19,6 +19,7 @@
 | disabled   |      禁用       |                   Boolean                    | 否   | false  | --   |
 | suffixIcon |    后置图标     |      [icon 名](../README.md#icon-图标)       | 否   | --     | --   |
 | hiddenIcon |    隐藏 icon    |                   Boolean                    | 否   | false  | --   |
+| animation  |    动画效果     |                   Boolean                    | 否   | true   | --   |
 | className  | 自定义 class 名 |                    String                    | 否   | --     | --   |
 
 #### 事件
@@ -38,6 +39,7 @@
 | value     |     已选值      |             String[\]\|Number[]              | 是   | --     | --   |
 | options   |    拉下选项     | [查看 options 属性](./README.md#option-属性) | 是   | --     | --   |
 | disabled  |      禁用       |                   Boolean                    | 否   | false  | --   |
+| animation |    动画效果     |                   Boolean                    | 否   | true   | --   |
 | className | 自定义 class 名 |                    String                    | 否   | --     | --   |
 
 #### 事件

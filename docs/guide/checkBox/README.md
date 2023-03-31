@@ -14,6 +14,7 @@
 | indeterminate | 负责样式控制（用于全选） |           Boolean           | 否   | --              | --   |
 | color         |      背景/边框颜色       | [颜色名](../README.md#颜色) | 否   | 'primary-color' | --   |
 | disabled      |           禁用           |           Boolean           | 否   | false           | --   |
+| animation     |         动画效果         |           Boolean           | 否   | true            | --   |
 | className     |     自定义 class 名      |           String            | 否   | --              | --   |
 
 #### 事件
@@ -35,6 +36,7 @@
 | options   |    拉下选项     | [查看 options 属性](./README.md#option-属性) | 是   | --              | --   |
 | color     |  背景/边框颜色  |       [支持的颜色](../README.md#颜色)        | 否   | 'primary-color' | --   |
 | disabled  |      禁用       |                   Boolean                    | 否   | false           | --   |
+| animation |    动画效果     |                   Boolean                    | 否   | true            | --   |
 | className | 自定义 class 名 |                    String                    | 否   | --              | --   |
 
 #### 事件

@@ -31,6 +31,7 @@ export default defineComponent({
           handlerChange={this.onSwitch}
           color="blue"
           disabled
+          animation={false}
         >
           Switch
         </Switch>

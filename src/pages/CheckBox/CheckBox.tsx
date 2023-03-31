@@ -140,6 +140,7 @@ export default defineComponent({
           handlerChange={(v) => {
             this.checked = v;
           }}
+          animation={false}
         >
           <H1>CheckBox</H1>
         </CheckBox>
@@ -178,6 +179,7 @@ export default defineComponent({
             this.values2 = values;
           }}
           color="blue"
+          animation={false}
         />
         <br />
         <P className="mb-4">自定义全选</P>

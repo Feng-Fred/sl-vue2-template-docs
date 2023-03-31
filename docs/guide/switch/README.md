@@ -14,6 +14,7 @@
 | size      |                   尺寸                   | 'large' \| 'small' | 否   | --              | --   |
 | color     | 背景颜色/边框颜色(当设置了 plain 时有效) |     支持的颜色     | 否   | 'primary-color' | --   |
 | disabled  |                   禁用                   |      Boolean       | 否   | false           | --   |
+| animation |                 动画效果                 |      Boolean       | 否   | true            | --   |
 | className |             自定义 class 名              |       String       | 否   | --              | --   |
 
 #### 事件
