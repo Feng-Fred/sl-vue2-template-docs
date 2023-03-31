@@ -28,6 +28,7 @@ Menu 下的菜单栏群组
 | mark      |      标记       | String, Number | 否   | --     | --   |
 | show      |  是否默认展开   |    Boolean     | 否   | false  | --   |
 | disabled  |      禁用       |    Boolean     | 否   | false  | --   |
+| animation |    动画效果     |    Boolean     | 否   | true   | --   |
 | className | 自定义 class 名 |     String     | 否   | --     | --   |
 
 ## Menu.Item
@@ -40,7 +41,6 @@ Menu 下的菜单栏群组
 | --------- | :-------------: | :------------: | ---- | ------ | ---- |
 | mark      |      标记       | String, Number | 否   | --     | --   |
 | disabled  |      禁用       |    Boolean     | 否   | false  | --   |
-| animation |    动画效果     |    Boolean     | 否   | true   | --   |
 | className | 自定义 class 名 |     String     | 否   | --     | --   |
 
 #### 事件
