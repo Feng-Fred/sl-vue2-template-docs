@@ -30,6 +30,7 @@ export default defineComponent({
             return (this.checked = checked);
           }}
           color="blue"
+          animation={false}
         >
           Radio1
         </Radio>
@@ -93,6 +94,19 @@ export default defineComponent({
             <Radio value="3">Orange</Radio>
             <Radio value="4">Orange1</Radio>
           </Col>
+        </Radio.Group>
+        单选组群 关闭动画
+        <br />
+        <Radio.Group
+          value={this.value}
+          handlerChange={(value) => {
+            this.value = value;
+          }}
+          animation={false}
+        >
+          <Radio value={1}>Apple</Radio>
+          <Radio value={2}>Pear</Radio>
+          <Radio value={3}>Orange</Radio>
         </Radio.Group>
       </div>
     );

@@ -15,6 +15,7 @@
 | mark      | 标记，与 group 结合使用 | String, Number | 否   | --     | --   |
 | active    |        是否展开         |    Boolean     | 否   | --     | --   |
 | disabled  |          禁用           |    Boolean     | 否   | false  | --   |
+| animation |        动画效果         |    Boolean     | 否   | true   | --   |
 | className |     自定义 class 名     |     String     | 否   | --     | --   |
 
 ## Collapse.Header
@@ -47,4 +48,5 @@
 | 成员      |              说明              |      类型      | 必须 | 默认值 | 版本 |
 | --------- | :----------------------------: | :------------: | ---- | ------ | ---- |
 | active    | 被选中的折叠面板的标记（mark） | String, Number | 是   | --     | --   |
+| animation |            动画效果            |    Boolean     | 否   | true   | --   |
 | accordion |           手风琴模式           |    Boolean     | 否   | --     | --   |

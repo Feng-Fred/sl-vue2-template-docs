@@ -215,6 +215,59 @@ export default defineComponent({
             <Collapse.Panel>{Text}</Collapse.Panel>
           </Collapse>
         </Collapse.Group>
+        <H3>Collapse Group 关闭动画</H3>
+        <Collapse.Group active={this.active2} animation={false}>
+          <Collapse mark="1">
+            <Collapse.Header
+              icon={{
+                placement: "right",
+              }}
+            >
+              Collapse1
+            </Collapse.Header>
+            <Collapse.Panel>
+              {Text}
+              <Collapse>
+                <Collapse.Header
+                  icon={{
+                    placement: "right",
+                  }}
+                >
+                  Collapse1 内嵌
+                </Collapse.Header>
+                <Collapse.Panel>{Text}</Collapse.Panel>
+              </Collapse>
+            </Collapse.Panel>
+          </Collapse>
+          <Collapse mark="2">
+            <Collapse.Header
+              icon={{
+                placement: "right",
+              }}
+            >
+              Collapse2
+            </Collapse.Header>
+            <Collapse.Panel>{Text}</Collapse.Panel>
+          </Collapse>
+          <Collapse mark="3">
+            <Collapse.Header
+              icon={{
+                placement: "right",
+              }}
+            >
+              Collapse3
+            </Collapse.Header>
+            <Collapse.Panel>{Text}</Collapse.Panel>
+          </Collapse>
+        </Collapse.Group>{" "}
+        <H3>Collapse 关闭动画</H3>
+        <Collapse>
+          <Collapse.Header>
+            <H3>标题</H3>
+            <H4>标题</H4>
+          </Collapse.Header>
+          <Collapse.Panel>{Text}</Collapse.Panel>
+        </Collapse>
       </div>
     );
   },

@@ -165,6 +165,52 @@ export default defineComponent({
             </Menu.Group.Content>
           </Menu.Group>
         </Menu>
+        <P>Menu 关闭动画效果</P>
+        <Menu animation={false} style={{ width: "256px" }}>
+          <Menu.Item mark="1" handlerClick={this.onClick}>
+            <Icon name="Add Bold" size="20" />
+            Navigation 1
+          </Menu.Item>
+          <Menu.Item mark="2" disabled>
+            Navigation 2
+          </Menu.Item>
+          <Menu.Item mark="3">Navigation 3</Menu.Item>
+          <Menu.Item mark="4">Navigation 4</Menu.Item>
+        </Menu>
+        <P>Menu Group Number 关闭动画效果</P>
+        <Menu animation={false} active={11}>
+          <Menu.Group mark={1} show>
+            <Menu.Group.Header>Navigation 1 Header</Menu.Group.Header>
+            <Menu.Group.Content>
+              <Menu.Item mark={11} disabled>
+                Navigation 1-1
+              </Menu.Item>
+              <Menu.Item mark={12}>Navigation 1-2</Menu.Item>
+              <Menu.Item mark={14}>Navigation 1-3</Menu.Item>
+            </Menu.Group.Content>
+          </Menu.Group>
+          <Menu.Group mark={2}>
+            <Menu.Group.Header>
+              <Icon name="Add Bold" size="20" />
+              Navigation 2 Header
+            </Menu.Group.Header>
+            <Menu.Group.Content>
+              <Menu.Item mark={21}>Navigation 2-1</Menu.Item>
+              <Menu.Item mark={22}>Navigation 2-2</Menu.Item>
+              <Menu.Group mark={23}>
+                <Menu.Group.Header>
+                  <Icon name="Add Bold" size="20" />
+                  Navigation 2-3 Header
+                </Menu.Group.Header>
+                <Menu.Group.Content>
+                  <Menu.Item mark={24}>Navigation 2-3-1</Menu.Item>
+                  <Menu.Item mark={25}>Navigation 2-3-2</Menu.Item>
+                  <Menu.Item mark={26}>Navigation 2-3-3</Menu.Item>
+                </Menu.Group.Content>
+              </Menu.Group>
+            </Menu.Group.Content>
+          </Menu.Group>
+        </Menu>
       </div>
     );
   },

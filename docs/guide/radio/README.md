@@ -14,6 +14,7 @@
 | value     | 选项值，与 group 一起使用 |       String\|Number        | 否   | --              | --   |
 | color     |       背景/边框颜色       | [颜色名](../README.md#颜色) | 否   | 'primary-color' | --   |
 | disabled  |           禁用            |           Boolean           | 否   | false           | --   |
+| animation |         动画效果          |           Boolean           | 否   | true            | --   |
 | className |      自定义 class 名      |           String            | 否   | --              | --   |
 
 #### 事件
@@ -33,6 +34,7 @@
 | value     |     选项值      |       string\|number        | 是   | --              | --   |
 | color     |  背景/边框颜色  | [颜色名](../README.md#颜色) | 否   | 'primary-color' | --   |
 | disabled  |      禁用       |           boolean           | 否   | false           | --   |
+| animation |    动画效果     |           Boolean           | 否   | true            | --   |
 | className | 自定义 class 名 |           String            | 否   | --              | --   |
 
 #### 事件
