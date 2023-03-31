@@ -14,6 +14,7 @@
 | active       |              被选中的折叠面板的标记（mark）              |         String, Number          | 否   | --              | --   |
 | color        | 鼠标移动上去的文本颜色，被选中的字体颜色与背景、边框颜色 | [支持的颜色](../README.md#颜色) | 否   | 'primary-color' | --   |
 | hiddenBorder |                         隐藏边框                         |             Boolean             | 否   | --              |
+| animation    |                         动画效果                         |             Boolean             | 否   | true            | --   |
 | className    |                     自定义 class 名                      |             String              | 否   | --              | --   |
 
 ## Menu.Group
@@ -28,7 +29,6 @@ Menu 下的菜单栏群组
 | mark      |      标记       | String, Number | 否   | --     | --   |
 | show      |  是否默认展开   |    Boolean     | 否   | false  | --   |
 | disabled  |      禁用       |    Boolean     | 否   | false  | --   |
-| animation |    动画效果     |    Boolean     | 否   | true   | --   |
 | className | 自定义 class 名 |     String     | 否   | --     | --   |
 
 ## Menu.Item
