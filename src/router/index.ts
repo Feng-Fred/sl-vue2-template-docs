@@ -17,6 +17,9 @@ import Switch from "../pages/Switch";
 import Tabs from "../pages/Tabs";
 import Tag from "../pages/Tag";
 import Typography from "../pages/Typography";
+import Input from "../pages/Input";
+import Textarea from "../pages/Textarea";
+import InputNumber from "../pages/InputNumber";
 
 const router = new VueRouter({
   mode: "history",
@@ -115,6 +118,21 @@ const router = new VueRouter({
       path: "/menu",
       name: "Menu 导航菜单",
       component: Menu,
+    },
+    {
+      path: "/input",
+      name: "Input 输入框",
+      component: Input,
+    },
+    {
+      path: "/textarea",
+      name: "Textarea 文本区",
+      component: Textarea,
+    },
+    {
+      path: "/input-number",
+      name: "InputNumber 计数器",
+      component: InputNumber,
     },
   ],
 });

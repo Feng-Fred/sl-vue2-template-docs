@@ -98,6 +98,22 @@ const sidebarList = [
     collapsable: false,
     sidebarDepth: 3,
   },
+  {
+    title: "Input 输入框",
+    path: "/guide/input/",
+    collapsable: false,
+    sidebarDepth: 3,
+  },
+  {
+    title: "Textarea 文本区",
+    path: "/guide/textarea/",
+    collapsable: false,
+  },
+  {
+    title: "Input.Number 计数器",
+    path: "/guide/inputNumber/",
+    collapsable: false,
+  },
 ];
 
 export default sidebarList;
